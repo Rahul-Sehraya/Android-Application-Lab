@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mca"
+        android:title="MCA"
+        />
+
+    <item android:id="@+id/bca"
+        android:title="BCA"
+
+        />
+    <item android:id="@+id/btech"
+        android:title="BTECH"
+        />
+</menu>
