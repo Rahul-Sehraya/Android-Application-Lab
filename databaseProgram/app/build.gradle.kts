@@ -3,11 +3,15 @@ plugins {
 }
 
 android {
-    namespace = "com.example.menus"
-    compileSdk = 36
+    namespace = "com.example.databaseprogram"
+    compileSdk {
+        version = release(36) {
+            minorApiLevel = 1
+        }
+    }
 
     defaultConfig {
-        applicationId = "com.example.menus"
+        applicationId = "com.example.databaseprogram"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
